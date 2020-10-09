@@ -1,0 +1,25 @@
+GET http://localhost:3000/rainmaker/65
+
+POST http://localhost:3000/rainmaker/65
+content-type: application/json
+{
+  "id": 65,
+  "firstName": "mm",
+  "lastName": "dd",
+  "username": "md",
+  "email": "md@gmail.com",
+  "age": 88
+}
+
+
+PUT http://localhost:3000/rainmaker/65
+content-type: application/json
+
+{
+  "id": 65,
+  "firstName": "mm",
+  "lastName": "dd",
+  "username": "md",
+  "email": "md@gmail.com",
+  "age": 86
+}
